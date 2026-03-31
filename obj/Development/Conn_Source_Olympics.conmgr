@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Conn_Source_Olympics"
+  DTS:DTSID="{B83F04B3-3802-4CF7-A240-C0B5909BC3E4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=NHUTVU;Initial Catalog=olympics;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Olympics_ETL_Project-{B83F04B3-3802-4CF7-A240-C0B5909BC3E4}NHUTVU.olympics;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
